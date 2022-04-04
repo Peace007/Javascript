@@ -1,0 +1,35 @@
+.todo-item {
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    margin: 8px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.todo-item-lbl {
+    display: block;
+    width: 100%;
+    background-color: #eee;
+    border:1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.delete-btn {
+    border:1px solid #dc3545;
+    background-color: transparent;
+}
+.done-btn{
+    border:1px solid green;
+    background-color: transparent;
+}
+.todo-item.done{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.updateInputValue {
+    width: 100%;
+    display: none;
+}
+.updateInputValue.active {
+    display: block;
+}
